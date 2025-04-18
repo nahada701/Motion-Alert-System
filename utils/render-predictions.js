@@ -35,4 +35,4 @@ export const renderPredictions=(renderPredictions,ctx)=>{
      const playAudio=throttle(()=>{
         const audio=new Audio('/danger-alarm.mp3')
         audio.play()
-     },9000)
+     },2000)
